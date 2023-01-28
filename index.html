@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fitness Gym</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('media/bg.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: 5px;
+        text-align: center;
+    }
+
+    .left img {
+        width: 80px;
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 16px;
+    }
+
+    .mid {
+        display: block;
+        width: 80%;
+        margin: 2px 180px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li img {
+        width: 20px;
+    }
+
+    .navbar li a:hover {
+        color: grey;
+    }
+
+    .container {
+        padding-top: 28px;
+        width: 40%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 320px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 20px;
+        border-radius: 8px;
+        opacity: 0.5;
+    }
+
+    .container h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .container button {
+        font-family: 'Baloo Bhai', cursive;
+        display: block;
+        width: 22%;
+        border-radius: 8px;
+        margin: 20px auto;
+    }
+
+    footer {
+        opacity: 0.2;
+        color: blanchedalmond;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="media/logo.png" alt="">
+            <div>Fitness Gym</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Membership PLans</a></li>
+                <li><a href="#">Fitness Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="https://www.linkedin.com/in/aniket-kumar-jha/" target="_blank"><img src="media\linkedin.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Delhi</h1>
+        <form action="">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit now</button>
+        </form>
+    </div>
+</body>
+
+</html>
