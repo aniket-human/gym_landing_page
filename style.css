@@ -1,0 +1,87 @@
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('media/bg.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .logo {
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: 5px;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .logo div {
+        line-height: 19px;
+        font-size: 16px;
+    }
+
+    .nav {
+        display: block;
+        width: 80%;
+        margin: 2px 180px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li img {
+        width: 20px;
+    }
+
+    .navbar li a:hover {
+        color: grey;
+    }
+
+    .container {
+        padding-top: 28px;
+        width: 40%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 320px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 20px;
+        border-radius: 8px;
+        opacity: 0.5;
+    }
+
+    .container h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .container button {
+        font-family: 'Baloo Bhai', cursive;
+        display: block;
+        width: 22%;
+        border-radius: 8px;
+        margin: 20px auto;
+    }
